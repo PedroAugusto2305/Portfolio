@@ -1,0 +1,44 @@
+#projects {
+  padding: 10rem 3rem;
+}
+.card--container {
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  display: grid;
+  width: 26rem;
+  height: 12.5rem;
+  background-color: #181818;
+  margin-bottom: 0.9375rem;
+  border: 1px solid #4bb164;
+}
+
+.card__title {
+  text-align: center;
+  margin-top: 1.9375rem;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.card__text {
+  margin: 0.5rem 1rem;
+  text-align: center;
+  color: #828282;
+}
+
+.github__link {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.github__link a {
+  color: #4bb164;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.github__link a:hover {
+  font-weight: 900;
+}

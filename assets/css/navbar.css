@@ -1,0 +1,35 @@
+#header {
+  background: #181818;
+  height: 4.35rem;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3rem;
+}
+#menu {
+  display: flex;
+  gap: 1rem;
+}
+#logo {
+  background-clip: text;
+  background-image: linear-gradient(to right, #4bb164, #1e5e5a);
+  font-size: 1.5rem;
+  font-weight: bold;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#menu a {
+  color: #ffffff;
+  display: block;
+}
+
+#menu a:hover {
+  color: #4bb164;
+}

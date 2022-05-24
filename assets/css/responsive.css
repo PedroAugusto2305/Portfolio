@@ -1,0 +1,92 @@
+/* applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* === Navbar === */
+  #header {
+    height: 6rem;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  #logo {
+    font-size: 2rem;
+  }
+
+  /* === Home === */
+
+  .home--container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 6rem;
+  }
+  #home article {
+    text-align: center;
+  }
+  .home__img {
+    display: none;
+  }
+
+  /* === About === */
+
+  .about__text {
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .about__img {
+    display: none;
+  }
+
+  /* === Projects === */
+  .card--container {
+    display: grid;
+  }
+  .card {
+    width: 26.9375rem;
+    height: 10rem;
+  }
+  /* === Services === */
+
+  .card--services {
+    margin-bottom: 1rem;
+  }
+
+  /* === Skills === */
+  .card--skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+
+  /* === Contact === */
+
+  #contact .form {
+    max-width: 31.25rem;
+  }
+
+  #message,
+  #contact button {
+    max-width: 30rem;
+  }
+}
+
+/* applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+}
+
+/* applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+}
+
+/* applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}
+
+/* applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+}

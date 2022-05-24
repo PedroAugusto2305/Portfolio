@@ -1,0 +1,34 @@
+#skills {
+  padding: 10rem 2rem;
+}
+.card--skills {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skills__item {
+  width: 15rem;
+  height: 10rem;
+  background-color: #181818;
+}
+
+.skills__item:hover {
+  border: 1px solid #4bb164;
+  cursor: pointer;
+}
+
+.skills__item img {
+  margin-left: 5.3125rem;
+  width: 3.8125rem;
+  height: 5.0625rem;
+  align-items: center;
+  margin-top: 1.5625rem;
+}
+
+.skills__item p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #4bb164;
+  text-align: center;
+  margin-top: 00.3375rem;
+}

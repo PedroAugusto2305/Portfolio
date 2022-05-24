@@ -1,0 +1,27 @@
+.max-width {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.container-home {
+  padding: 14rem 3rem;
+}
+
+.container {
+  padding: 10rem 3rem;
+  background-color: #181818;
+}
+
+.section--title {
+  text-align: center;
+  margin-top: 1.9375rem;
+  margin-bottom: 3rem;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.container--about {
+  padding: 8rem 3rem;
+  background-color: #181818;
+}

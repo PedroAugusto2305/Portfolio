@@ -1,0 +1,44 @@
+.home--container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home__title {
+  font-size: 2.25rem;
+  color: #ffffff;
+  margin-bottom: 1.125rem;
+}
+
+.home__text {
+  font-size: 1.125rem;
+  margin-bottom: 1.525rem;
+  color: #4bb164;
+}
+
+.home__button {
+  background: none;
+  border: 2px solid;
+  border-image: linear-gradient(90deg, #4bb164, #1e5e5a) 1;
+  color: #fff;
+  cursor: pointer;
+  padding: 11px 33px;
+}
+
+#home img {
+  width: 28.5rem;
+  height: 20.625rem;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-35px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

@@ -1,0 +1,19 @@
+#footer {
+  background: #151515;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+  text-align: center;
+}
+
+#footer .footer--title {
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+#footer .footer--title span {
+  background-image: linear-gradient(to right, #4bb164, #1e5e5a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
